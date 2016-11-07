@@ -20,7 +20,13 @@
     "precommit": "git add --all",
     "commit": "git-cz"
   },
-  "dependencies": {},
+  "dependencies": {
+    "define-property": "^0.2.5",
+    "isobject": "^2.1.0",
+    "lazy-cache": "^2.0.1",
+    "minibase-is-registered": "^1.1.0",
+    "minibase-visit": "^1.0.1"
+  },
   "devDependencies": {
     "commitizen": "^2.8.6",
     "coveralls": "^2.11.14",
@@ -32,7 +38,8 @@
     "standard-version": "^3.0.0"
   },
   "files": [
-    "index.js"
+    "index.js",
+    "utils.js"
   ],
   "keywords": [],
   "config": {
