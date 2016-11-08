@@ -1,7 +1,7 @@
 {
   "name": "minibase-better-define",
   "version": "0.2.0",
-  "description": "wip",
+  "description": "Plugin for [base][] and [minibase][] that overrides the core `.define` method to be more better.",
   "repository": "node-minibase/minibase-better-define",
   "author": "Charlike Mike Reagent <@tunnckoCore> (http://www.tunnckocore.tk)",
   "precommit.silent": true,

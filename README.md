@@ -1,6 +1,6 @@
 # [minibase-better-define][author-www-url] [![npmjs.com][npmjs-img]][npmjs-url] [![The MIT License][license-img]][license-url] [![npm downloads][downloads-img]][downloads-url] 
 
-> wip
+> Plugin for [base][] and [minibase][] that overrides the core `.define` method to be more better.
 
 [![code climate][codeclimate-img]][codeclimate-url] [![standard code style][standard-img]][standard-url] [![travis build status][travis-img]][travis-url] [![coverage status][coveralls-img]][coveralls-url] [![dependency status][david-img]][david-url]
 
@@ -107,9 +107,15 @@ But before doing anything, please read the [CONTRIBUTING.md](./CONTRIBUTING.md) 
 
 [![tunnckoCore.tk][author-www-img]][author-www-url] [![keybase tunnckoCore][keybase-img]][keybase-url] [![tunnckoCore npm][author-npm-img]][author-npm-url] [![tunnckoCore twitter][author-twitter-img]][author-twitter-url] [![tunnckoCore github][author-github-img]][author-github-url]
 
+[always-done]: https://github.com/hybridables/always-done
+[assert-kindof]: https://github.com/tunnckocore/assert-kindof
+[async-done]: https://github.com/gulpjs/async-done
 [base]: https://github.com/node-base/base
+[collection-visit]: https://github.com/jonschlinkert/collection-visit
 [define-property]: https://github.com/jonschlinkert/define-property
+[dezalgo]: https://github.com/npm/dezalgo
 [minibase]: https://github.com/node-minibase/minibase
+[once]: https://github.com/isaacs/once
 
 [npmjs-url]: https://www.npmjs.com/package/minibase-better-define
 [npmjs-img]: https://img.shields.io/npm/v/minibase-better-define.svg?label=minibase-better-define
@@ -156,9 +162,3 @@ But before doing anything, please read the [CONTRIBUTING.md](./CONTRIBUTING.md) 
 [new-message-url]: https://github.com/tunnckoCore/ama
 [new-message-img]: https://img.shields.io/badge/ask%20me-anything-green.svg
 
-[always-done]: https://github.com/hybridables/always-done
-[assert-kindof]: https://github.com/tunnckocore/assert-kindof
-[async-done]: https://github.com/gulpjs/async-done
-[collection-visit]: https://github.com/jonschlinkert/collection-visit
-[dezalgo]: https://github.com/npm/dezalgo
-[once]: https://github.com/isaacs/once
