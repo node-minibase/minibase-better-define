@@ -41,7 +41,23 @@
     "index.js",
     "utils.js"
   ],
-  "keywords": [],
+  "keywords": [
+    "base",
+    "baseplugin",
+    "create",
+    "define",
+    "enum",
+    "method",
+    "mini",
+    "minibase",
+    "minibaseplugin",
+    "nonenum",
+    "prop",
+    "property",
+    "props",
+    "val",
+    "value"
+  ],
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
