@@ -24,6 +24,7 @@
     "define-property": "^0.2.5",
     "isobject": "^2.1.0",
     "lazy-cache": "^2.0.1",
+    "minibase-create-plugin": "^1.0.0",
     "minibase-is-registered": "^1.1.0"
   },
   "devDependencies": {

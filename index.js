@@ -36,12 +36,7 @@ var utils = require('./utils')
  */
 
 module.exports = function minibaseBetterDefine (opts) {
-  return function minibaseBetterDefine (self) {
-    self.use(utils.isRegistered())
-
-    /* istanbul ignore next */
-    if (self.isRegistered('better-define')) return
-
+  return utils.createPlugin('better-define', function betterDefine (self) {
     /**
      * > Defines a non-enumerable property to application instance
      * if first argument `key` is not an object, but string.
@@ -105,5 +100,5 @@ module.exports = function minibaseBetterDefine (opts) {
       utils.define(key, value, props)
       return self
     })
-  }
+  })
 }

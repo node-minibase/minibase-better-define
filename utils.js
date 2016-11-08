@@ -10,7 +10,7 @@ require = utils // eslint-disable-line no-undef, no-native-reassign, no-global-a
 
 require('define-property', 'define')
 require('isobject', 'isObject')
-require('minibase-is-registered', 'isRegistered')
+require('minibase-create-plugin', 'createPlugin')
 require = fn // eslint-disable-line no-undef, no-native-reassign, no-global-assign
 
 utils.registerMethod = function registerMethod (self, name) {
