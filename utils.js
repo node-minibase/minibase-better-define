@@ -11,13 +11,12 @@ require = utils // eslint-disable-line no-undef, no-native-reassign, no-global-a
 require('define-property', 'define')
 require('isobject', 'isObject')
 require('minibase-is-registered', 'isRegistered')
-require('minibase-visit', 'visit')
 require = fn // eslint-disable-line no-undef, no-native-reassign, no-global-assign
 
 utils.registerMethod = function registerMethod (self, name) {
   var plugin = self.registered[self._pluginName]
-  self.registered = Array.isArray(plugin) ? plugin : []
-  self.registered.push(name)
+  plugin = Array.isArray(plugin) ? plugin : []
+  plugin.push(name)
   return self
 }
 

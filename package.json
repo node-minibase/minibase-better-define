@@ -24,8 +24,7 @@
     "define-property": "^0.2.5",
     "isobject": "^2.1.0",
     "lazy-cache": "^2.0.1",
-    "minibase-is-registered": "^1.1.0",
-    "minibase-visit": "^1.0.1"
+    "minibase-is-registered": "^1.1.0"
   },
   "devDependencies": {
     "commitizen": "^2.8.6",

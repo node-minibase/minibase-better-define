@@ -12,8 +12,8 @@ var utils = require('./utils')
 module.exports = function minibaseBetterDefine (opts) {
   return function minibaseBetterDefine (self) {
     self.use(utils.isRegistered())
-    self.use(utils.visit())
 
+    /* istanbul ignore next */
     if (self.isRegistered('better-define')) return
 
     self.define('define', function define (key, value, props) {
