@@ -54,6 +54,28 @@
     "tasks": [
       "readme"
     ],
+    "related": {
+      "list": [
+        "minibase",
+        "minibase-is-registered",
+        "minibase-assert",
+        "minibase-visit",
+        "try-catch-core",
+        "always-done",
+        "mukla"
+      ]
+    },
+    "reflinks": [
+      "base",
+      "define-property",
+      "minibase",
+      "always-done",
+      "assert-kindof",
+      "async-done",
+      "collection-visit",
+      "dezalgo",
+      "once"
+    ],
     "lint": {
       "reflinks": true
     }
