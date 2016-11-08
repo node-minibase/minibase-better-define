@@ -15,8 +15,8 @@ require = fn // eslint-disable-line no-undef, no-native-reassign, no-global-assi
 
 utils.registerMethod = function registerMethod (self, name) {
   var plugin = self.registered[self._pluginName]
-  plugin = Array.isArray(plugin) ? plugin : []
-  plugin.push(name)
+  self.registered[self._pluginName] = Array.isArray(plugin) ? plugin : []
+  self.registered[self._pluginName].push(name)
   return self
 }
 
