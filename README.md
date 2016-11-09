@@ -1,3 +1,9 @@
+<p align="center">
+  <a href="https://github.com/node-minibase">
+    <img height="250" width="250" src="https://avatars1.githubusercontent.com/u/23032863?v=3&s=250">
+  </a>
+</p>
+
 # [minibase-better-define][author-www-url] [![npmjs.com][npmjs-img]][npmjs-url] [![The MIT License][license-img]][license-url] [![npm downloads][downloads-img]][downloads-url] 
 
 > Plugin for [base][] and [minibase][] that overrides the core `.define` method to be more better.
@@ -44,7 +50,7 @@ var base = new Base()
 base.use(betterDefine())
 ```
 
-### [.define](index.js#L96)
+### [.define](index.js#L91)
 > Defines a non-enumerable property to application instance if first argument `key` is not an object, but string. If `key` is object, it works like [define-property][] lib.
 
 **It also gives you few more things:**
