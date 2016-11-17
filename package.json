@@ -66,7 +66,12 @@
   },
   "verb": {
     "run": true,
-    "toc": true,
+    "toc": {
+      "render": true,
+      "method": "preWrite",
+      "maxdepth": 3,
+      "footer": ""
+    },
     "layout": "empty",
     "tasks": [
       "readme"
@@ -79,19 +84,25 @@
         "minibase-visit",
         "try-catch-core",
         "always-done",
-        "mukla"
+        "mukla",
+        "minibase-create-plugin",
+        "minibase-tests"
       ]
     },
     "reflinks": [
-      "base",
-      "define-property",
-      "minibase",
       "always-done",
       "assert-kindof",
       "async-done",
+      "base",
       "collection-visit",
+      "define-property",
       "dezalgo",
-      "once"
+      "minibase",
+      "once",
+      "commitizen",
+      "standard-version",
+      "verb",
+      "verb-generate-readme"
     ],
     "lint": {
       "reflinks": true
