@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.0.4"></a>
+## [1.0.4](https://github.com/node-minibase/minibase-better-define/compare/v1.0.3...v1.0.4) (2016-12-05)
+
+
+### Bug Fixes
+
+* **update:** bump deps, allow failures ([66585a6](https://github.com/node-minibase/minibase-better-define/commit/66585a6))
+* **verb:** update layout and url links ([e88f414](https://github.com/node-minibase/minibase-better-define/commit/e88f414))
+
+
+
 <a name="1.0.3"></a>
 ## [1.0.3](https://github.com/node-minibase/minibase-better-define/compare/v1.0.2...v1.0.3) (2016-11-17)
 
