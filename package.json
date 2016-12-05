@@ -3,7 +3,7 @@
   "version": "1.0.3",
   "description": "Plugin for [base][] and [minibase][] that overrides the core `.define` method to be more better.",
   "repository": "node-minibase/minibase-better-define",
-  "author": "Charlike Mike Reagent <@tunnckoCore> (http://www.tunnckocore.tk)",
+  "author": "Charlike Mike Reagent <@tunnckoCore> (http://i.am.charlike.online)",
   "precommit.silent": true,
   "main": "index.js",
   "license": "MIT",
