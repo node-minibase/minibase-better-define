@@ -21,7 +21,7 @@
     "commit": "git-cz"
   },
   "dependencies": {
-    "define-property": "^0.2.5",
+    "define-property": "^1.0.0",
     "isobject": "^3.0.0",
     "lazy-cache": "^2.0.2",
     "minibase-create-plugin": "^1.0.2"
