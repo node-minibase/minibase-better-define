@@ -31,7 +31,7 @@
     "coveralls": "^2.11.15",
     "cz-conventional-changelog": "1.1.5",
     "minibase": "^1.0.0",
-    "minibase-is-registered": "^1.1.4",
+    "minibase-is-registered": "^1.1.7",
     "mukla": "^0.4.8",
     "nyc": "^11.0.1",
     "pre-commit": "^1.1.3",
